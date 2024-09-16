@@ -1,0 +1,62 @@
+body {
+    padding-top: 56px;
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+}
+
+.header {
+    background: url('img/pergamino.jpg') no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header-content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #007bff;
+}
+
+.card-img-top {
+    border-radius: 5px 5px 0 0;
+}
+
+h2 {
+    margin-bottom: 40px;
+    color: #333;
+}
+
+
+#Contacto form label {
+    font-weight: 700;
+    color: #373a3c;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 100px;
+    }
+  
+
+}
+
